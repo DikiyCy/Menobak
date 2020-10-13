@@ -1,0 +1,95 @@
+.about {
+    padding: 62px 29px 66px;
+    min-height: 492px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.info {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    &__link {
+        &_email {
+            margin-bottom: 20px;
+        }
+    }
+    &__phone {
+        font-family: 'RoadRadio';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 110%;
+        color: #262633;
+        margin: 0;
+    }
+    &__email {
+        font-family: 'Golos';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #BF2738;
+    }
+    &__descr {
+        max-width: 500px;
+        font-family: 'Golos';
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        color: #262633;
+        margin-bottom: 15px;
+    }
+    &__bank {
+        max-width: 470px;
+        font-family: 'Golos';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #808080;
+    }
+}
+.question {
+    display: flex;
+    min-height: 100%;
+    flex: 0 0 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 17px;
+    position: relative;
+    &__title {
+        font-family: 'RoadRadio';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 110%;
+        color: #262633;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+.announcement {
+    min-width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    left: -1px;
+    background-color: #fff;
+    font-family: 'RoadRadio';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 110%;
+    color: #262633;
+    text-align: center;
+    animation: opacityForm 0.5s linear;
+}
+
+@keyframes opacityForm {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

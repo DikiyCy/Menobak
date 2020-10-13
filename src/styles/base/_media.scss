@@ -1,0 +1,246 @@
+// правила для размеров от 1531 до 1923
+@media (max-width: 1923px) {
+
+}
+// правила для размеров от 1201 до 1530
+@media (max-width: 1530px) {
+}
+@media (max-width: 1360px) {
+
+    .form {
+        &__wrap {
+            width: 100%;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            margin: 0;
+            &_inp {
+                max-width: 450px;
+                margin-bottom: 10px;
+            }
+        }
+        &__name {
+            width: 100%;
+            margin: 0;
+        }
+        &__phone {
+            width: 100%;
+        }
+        &__message {
+            width: 100%;
+            max-width: 450px;
+        }
+        &__political {
+            width: 100%;
+            max-width: 450px;
+        }
+    }
+}
+// правила для размеров от 992 до 1200
+@media (max-width: 1200px) {
+}
+// __________tablet__________
+// правила для размеров от 768 до 991
+@media (max-width: 991px) {
+    .hidden_tablet {
+        display: none;
+    }
+    .header {
+        padding: 14px 29px;
+        .humburger {
+            margin-right: 48px;
+        }
+        .navbar {
+            justify-content: start;
+            &__link {
+                font-size: 14px;
+                margin-right: 30px;
+            }
+        }
+        .logo {
+            margin: 0 74px 0 48px;
+            img {
+                width: 90px;
+            }
+        }
+    }
+    .main {
+        padding: 16px 17px 15px;
+        &__line {
+            margin: 18px 0 15px;
+        }
+        &__title {
+            font-size: 32px;
+        }
+    }
+    .about {
+        padding: 40px 29px 50px;
+        .info {
+            &__title {
+                font-size: 28px;
+            }
+            &__descr {
+                font-size: 14px;
+            }
+        }
+        .question {
+            &__title {
+                font-size: 28px;
+            }
+        }
+    }
+    .map {
+        height: 480px;
+    }
+    .addresses {
+        padding: 60px 19px 80px;
+        ul {
+            justify-content: space-around;
+        }
+        .address {
+            width: 350px;
+            margin-bottom: 10px;
+            &:last-child {
+                width: 100%;
+            }
+        }
+    }
+    .footer {
+        &__packs {
+            margin-bottom: 82px;
+        }
+        &__pack {
+            font-size: 20px;
+            & a:hover, & a:focus {
+                color: #F23147;
+            }
+        }
+        &__items {
+            max-width: 330px;
+        }
+        &__contact {
+            padding-left: 40px;
+        }
+        &__phone {
+            font-size: 23px;
+            margin-right: 0;
+            h3 {
+                line-height: 100%;
+            }
+        }
+        &__email {
+            font-size: 19px;
+            margin-bottom: 33px;
+        }
+    }
+}
+// правила для размеров от 576 до 767
+@media (max-width: 767px) {
+    .hidden_mobile {
+        display: none;
+    }
+    .header {
+        .wrapper {
+            justify-content: flex-end;
+        }
+        .logo {
+            margin: 0 30px;
+        }
+
+    }
+
+    .address {
+        width: 100%;
+        max-width: 350px;
+        &:last-child {
+            width: 100%;
+            max-width: 350px;
+        }
+    }
+}
+// __________mobile__________
+// правила для размеров от нуля(чаще320) до 575
+@media (max-width: 575px) {
+    .header {
+        padding: 18px 16px;
+        .humburger {
+            margin: 0;
+        }
+    }
+    .main {
+        padding: 16px 17px 15px;
+        &__line {
+            margin: 16px 0 20px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+    }
+    .about {
+        padding: 30px 15px 50px;
+        .container {
+            flex-direction: column;
+        }
+        .info {
+            margin-bottom: 50px;
+        }
+        .question {
+            padding: 0;
+            &__title {
+                font-size: 20px;
+            }
+        }
+    }
+    .form {
+        &__name {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        &__phone {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        &__message {
+            width: 100%;
+        }
+    }
+    .map {
+        height: 480px;
+    }
+    .footer {
+        padding: 0;
+        background: none;
+        &__wrapp_1 {
+            margin: 0;
+            flex-direction: column;
+        }
+        &__link {
+            padding: 40px 15px;
+            padding-bottom: 49px;
+            background-color: #222225;
+        }
+        &__packs {
+            margin-bottom: 20px;
+        }
+        &__items {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        &__contact {
+            padding: 43px 15px 50px;
+            background-color: #2A2A2E;
+        }
+        &__wrapp_2 {
+            flex-direction: column;
+        }
+        &__copy {
+            width: 100%;
+            padding: 19px 15px;
+            background-color: #2A2A2E;
+        }
+        &__line {
+            bottom: 55px;
+        }
+    }
+}

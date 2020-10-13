@@ -1,0 +1,71 @@
+.addresses{
+    padding: 80px 29px 70px;
+    ul {
+        width: 100%;
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .address {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: start;
+        width: 300px;
+        height: 310px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        padding: 33px 22px 40px 22px;
+        margin-bottom: 30px;
+        &:last-child {
+            width: 630px;
+        }
+        &__title {
+            font-family: 'RoadRadio';
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 110%;
+            color: #262633;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        &__phone {
+            font-family: 'Golos';
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 150%;
+            color: #262633;
+            margin-bottom: 10px;
+        }
+        &__descr {
+            font-family: 'Golos';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #797986;
+            margin-bottom: 5px;
+        }
+        &__track {
+            display: block;
+            height: 50%;
+            font-family: 'Golos';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color:#BF2738;
+        }
+        &__work {
+            font-family: 'Golos';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #262633;
+            align-self: end;
+        }
+    }
+}

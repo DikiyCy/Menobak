@@ -1,0 +1,42 @@
+.main {
+    padding: 21px 29px 30px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__descr {
+        font-family: 'Golos';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #797986;
+        margin-bottom: 25px;
+        &_dot {
+            margin: 0 15px;
+        }
+        &_light {
+            color: #C9C9CF;
+        }
+    }
+    &__line {
+        width: 200%;
+        transform: translateX(-25%);
+        border: none;
+        opacity: 0.1;
+        border-bottom: 1px solid  #000000;
+        margin: 25px 0;
+    }
+    &__title {
+        font-family: 'RoadRadio';
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 100%;
+        color: #262633;
+        margin: 0;
+    }
+}

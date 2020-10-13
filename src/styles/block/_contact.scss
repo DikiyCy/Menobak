@@ -1,0 +1,23 @@
+.contact {
+    &_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        &__phone {
+            font-family: 'Golos';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #262633;
+            margin-bottom: 6px;
+        }
+        &__email {
+            font-family: 'GraphikLCG';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 120%;
+            color: #797986;
+        }
+    }
+}

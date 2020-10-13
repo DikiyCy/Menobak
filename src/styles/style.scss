@@ -1,0 +1,33 @@
+@import "~normalize.css";
+@import 'fonts';
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+a, a:active, a:hover {
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+
+@import './block/header';
+@import './block/contact';
+@import './block/button';
+@import './block/main';
+@import './block/about';
+@import './block/form';
+@import './block/map';
+@import './block/addresses';
+@import './block/footer';
+
+
+@import './base/media';

@@ -1,0 +1,33 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    width: 190px;
+    height: 52px;
+    border-radius: 14px;
+    font-family: 'RoadRadio';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #BF2738;
+    &:focus {
+        outline: none;
+    }
+    &_header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2A2A2E;
+        border: 2px solid #494950;
+        margin-bottom: 15px;
+        &:hover {
+            box-shadow: 1px 4px 10px 1px #fff;
+        }
+    }
+}
