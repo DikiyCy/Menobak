@@ -19,7 +19,7 @@ const mapsYandex = (coordSenter) => {
                 },
                 {
                     iconLayout: 'default#image',
-                    iconImageHref: 'assets/img/dot.svg',
+                    iconImageHref: 'dot.svg',
                     iconImageSize: [30, 42],
                     iconImageOffset: [-5, -38]
                 }
